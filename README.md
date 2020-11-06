@@ -6,22 +6,42 @@ A website for the sewing business Caragh Creates.
  
 ### Project goals
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The primary goal of Caragh Creates is to provide an intuitive and aesthetic website for the sewing business to engage customers and encourage sales. The website will have two target audiences: potential customers and potential collaborators (who may provide materials to the business owner).
 
-#### Developer and Business goals
+#### Developer goals
+
+The goal for the developer is to gain experience using HTML5, CSS and frameworks such as Bootstrap to create a static website fully serving the business goals and focusing on good user experience.
+
+#### Business goals
+
+The goal for the developer is to have a platform which enables easy running of the business and encourages as many sales as possible while increasing exposure of the business to many potential customers and collaborators.
 
 #### User Stories
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+As a potential customer, I want:
+
+1. Large clear images of products so that I can decide whether I want to buy them.
+2. Clear pricing so I can decide if the products are affordable for me.
+3. Intuitive website layout so I can easily navigate to the sections of the website I want to view.
+4. Clear information on who the business owner is and about the products she makes so I can decide whether I want to buy from her.
+5. Clear directions over how to purchase the products so that I know exactly how to go about buying a product.
+6. Obvious links to social media so I can look at previous products.
+
+As a potential collaborator (materials provider), I want:
+
+1. Clear information on the business owner so I can make an informed choice as to whether they would be a good partner.
+2. Information about previous collaborators so I can decide if I would be a suitable fit.
+3. Intuitive contact form so that I can easily get in touch with the business owner.
 
 ### Design Choices
 
 ### Wireframes
 
-- [Site Map](assets/wireframes/site_map.pdf)
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+- [Site map](assets/wireframes/site_map.pdf)
+- [Home page](assets/wireframes/home_page.pdf)
+- [About page](assets/wireframes/about_page.pdf)
+- [Gallery page](assets/wireframes/gallery_page.pdf)
+- [Contact page](assets/wireframes/contact_page.pdf)
 
 ## Features
 
