@@ -6,6 +6,10 @@
     background-color: #880e4f;
 }
 
+.bg-color-footer {
+    background-color: #880e4f;
+}
+
 /*-----------------Special paddings/margins/text */
 
 h1, h2, h3, h4 {
@@ -19,11 +23,23 @@ h1, h2, h3, h4 {
 
 /*-----------------Header */
 
+header {
+    letter-spacing: 1.5px;
+}
+
 .navbar-brand {
     color: #fff;
     font-family: "Dosis", sans-serif;
     font-weight: 500;
     font-size: 40px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #a5d6a7;
 }
 
 .nav-item a {
@@ -31,6 +47,64 @@ h1, h2, h3, h4 {
     font-family: "Dosis", sans-serif;
     font-weight: 500;
     font-size: 25px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.nav-item a i {
+    font-size: 30px;
+}
+
+.nav-item a:hover {
+    color: #a5d6a7;
+}
+
+.active a {
+    color: #a5d6a7;
 }
 
 /*-----------------Footer */
+
+footer {
+    margin: 0;
+    color: #fff;
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+}
+
+.contact-details p {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.contact-details p,
+.social-heading {
+    letter-spacing: 1px;
+}
+
+.contact-details p i {
+    padding-right: 2px;
+}
+
+.social-links {
+    margin: 0 auto;
+}
+
+.social-links li a i{
+    margin: 0;
+    padding-top: 4px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #a5d6a7;
+}
