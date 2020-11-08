@@ -108,3 +108,16 @@ footer {
 .social-links li a i:hover {
     color: #a5d6a7;
 }
+
+/*-----------------Home Page */
+
+.home-page-intro {
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.home-page-intro p {
+    margin: 0;
+}
