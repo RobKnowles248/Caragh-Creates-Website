@@ -177,6 +177,19 @@ footer {
     margin: 20px 40px 20px 40px;
 }
 
+/*-----------------Gallery Page*/
+
+.gallery-heading {
+    color: #880e4f;
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.collection-text {
+    margin-bottom: 10px;
+}
+
 /*-----------------Contact Page*/
 
 .contact-text {
