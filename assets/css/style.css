@@ -20,6 +20,26 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
 }
 
+p {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.page-heading {
+    padding-top: 10px;
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 35px;
+    color: #880e4f;
+}
+
+.general-hr {
+    border-color: #880e4f;
+}
+
 
 /*-----------------Header */
 
@@ -144,4 +164,11 @@ footer {
 .home-page-btn:hover {
     background-color: #a5d6a7;
     color: #fff;
+}
+
+/*-----------------About Page*/
+
+.about-text {
+    text-align: center;
+    
 }
