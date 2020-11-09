@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bad+Script&display=swap');
 
 /*-----------------Colours */
 
@@ -8,6 +8,14 @@
 
 .bg-color-footer {
     background-color: #880e4f;
+}
+
+.bg-color-gallery-outside {
+    background-color: #75a478;
+}
+
+.bg-color-gallery-inside {
+    background-color: #a5d6a7;
 }
 
 /*-----------------Special paddings/margins/text */
@@ -50,7 +58,7 @@ header {
 .navbar-brand {
     margin-left: 15px;
     color: #fff;
-    font-family: "Dancing Script", cursive;
+    font-family: "Bad Script", cursive;
     font-weight: 700;
     font-size: 50px;
     transition: all 0.35s ease-in-out;
@@ -179,14 +187,24 @@ footer {
 
 /*-----------------Gallery Page*/
 
-.gallery-heading {
-    color: #880e4f;
+.gallery-row {
+    padding-bottom: 20px;
+}
+
+.gallery-col {
+    padding: 10px;
+}
+
+.collection-heading {
+    margin: 10px 0 10px 0;
+    color: #000;
     font-family: "Dosis", sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
 }
 
 .collection-text {
+    color: #000;
     margin-bottom: 10px;
 }
 
