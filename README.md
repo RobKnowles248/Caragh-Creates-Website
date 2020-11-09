@@ -1,6 +1,8 @@
 # Caragh Creates
 
-A website for the sewing business Caragh Creates.
+User Centric Frontend Development Milestone Project - Code Institute.
+
+For this project I have created a website for the independent sewing business "Caragh Creates". The website will provide the user with information about the business, details of the products available and a way to get in contact with the business owner.
  
 ## UX
  
