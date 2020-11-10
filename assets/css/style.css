@@ -220,12 +220,20 @@ footer {
 .about-text {
     background-color: rgba(245, 245, 245, 0.5);
     padding: 0 10px 0 10px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .about-text p {
     text-align: center;
     background: transparent;
     margin: 20px;
+}
+
+.about-text:hover {
+    background-color: rgba(245, 245, 245, 0.8);
 }
 
 .about-info-pic-col {
