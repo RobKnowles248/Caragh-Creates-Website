@@ -126,7 +126,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- Some of the photos used in this site () were taken by Caragh Green.
+- All images were compressed using [tinypng.com](https://tinypng.com/)
 
 ### Acknowledgements
 

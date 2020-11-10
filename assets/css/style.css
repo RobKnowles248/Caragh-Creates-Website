@@ -140,7 +140,16 @@ footer {
     color: #a5d6a7;
 }
 
-/*-----------------Home Page Carousel*/
+/*-----------------Home Page Hero Image*/
+
+.hero-image {
+    height: 400px;
+    background: url("../images/bloom-squares.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 /*-----------------Home Page Text Section*/
 

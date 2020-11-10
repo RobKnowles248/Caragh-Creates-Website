@@ -35,17 +35,23 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 text-center">
                 <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in velit sit amet ligula convallis imperdiet. Mauris gravida leo pretium tortor consequat, vitae laoreet elit tincidunt. Integer dignissim porttitor nulla, ac maximus orci accumsan nec. Donec ut auctor sapien. Morbi molestie finibus ligula eu faucibus. Proin ac elit justo. Aliquam erat volutpat.</p>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <div class="center-form">
+                <div class="center-form about-form">
                     <form>
+                        <label for="fullname">Name:</label>
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+                        <label for="email">Email Address:</label>
                         <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" required>
-                        
+                        <label for="customer">Customer</label>
+                        <input type="radio" id="customer" name="user-type" value="customer">
+                        <label for="collaborator">Collaborator</label>
+                        <input type="radio" id="collaborator" name="user-type" value="collaborator">
+
                         <input type="submit" value="Submit">
                     </form>
                 </div>
