@@ -10,14 +10,6 @@
     background-color: #880e4f;
 }
 
-.bg-color-gallery-outside {
-    background-color: #75a478;
-}
-
-.bg-color-gallery-inside {
-    background-color: #a5d6a7;
-}
-
 /*-----------------Special paddings/margins/text */
 
 h1, h2, h3, h4 {
@@ -46,6 +38,10 @@ p {
 
 .general-hr {
     border-color: #880e4f;
+}
+
+.padding-zero {
+    padding: 0;
 }
 
 
@@ -177,7 +173,7 @@ footer {
     border-radius: 0;
     background-color: #880e4f;
     color: #fff;
-    width: 100%;
+    width: 90%;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -192,11 +188,13 @@ footer {
 .home-page-btn:hover {
     background-color: #a5d6a7;
     color: #000;
+    width: 95%;
+    font-size: 110%;
 }
 
 @media only screen and (max-width: 768px) {
     .home-page-btn {
-        width: 80%;
+        width: 70%;
     }
 }
 
@@ -214,19 +212,29 @@ footer {
 }
 
 .gallery-col {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
+    width: 95%;
+    background-color: #880e4f;
+    color: #fff;
+}
+
+.gallery-col:hover {
+    width: 98%;
+    background-color: #a5d6a7;
+    color: #000;
 }
 
 .collection-heading {
     margin: 10px 0 10px 0;
-    color: #000;
     font-family: "Dosis", sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
 }
 
 .collection-text {
-    color: #000;
     margin-bottom: 10px;
 }
 
