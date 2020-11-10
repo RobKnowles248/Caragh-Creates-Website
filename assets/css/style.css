@@ -293,6 +293,11 @@ footer {
     margin-bottom: 10px;
 }
 
+.carousel-caption h5 {
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 1px;
+}
+
 /*-----------------Contact Page*/
 
 .contact-text {
