@@ -120,7 +120,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Code
 
 - Template code for the social links list in the footer was taken from the resume mini project in the User Centric Front End Development module.
-- Template code for the carousel on the home page using Bootstrap classes was taken from the [Bootstrap documentation](https://getbootstrap.com/docs/4.0/components/carousel/) and was edited to suit the site needs.
+- Template code for the carousels on gallery.html using Bootstrap classes was taken from the [Bootstrap documentation](https://getbootstrap.com/docs/4.0/components/carousel/) and was edited to suit the site needs.
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)

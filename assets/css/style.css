@@ -159,7 +159,6 @@ footer {
 
 .home-page-links-image {
     width: 100%;
-    
 }
 
 .home-page-btn {
@@ -200,9 +199,44 @@ footer {
 
 /*-----------------About Page*/
 
+.about-container {
+    height: 600px;
+    background: url("../images/caragh-pic.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .about-text {
+    background-color: rgba(245, 245, 245, 0.5);
+    padding: 0 10px 0 10px;
+}
+
+.about-text p {
     text-align: center;
-    margin: 20px 40px 20px 40px;
+    background: transparent;
+    margin: 20px;
+}
+
+.about-info-pic-col {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-info-pic-col {
+        display: none;
+    }
+
+    .about-container {
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .about-sm-container {
+        display: none;
+    }
 }
 
 /*-----------------Gallery Page*/
@@ -219,6 +253,10 @@ footer {
     width: 95%;
     background-color: #880e4f;
     color: #fff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .gallery-col:hover {
