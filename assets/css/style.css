@@ -294,6 +294,10 @@ footer {
     margin-bottom: 10px;
 }
 
+.collection-text a {
+    color: inherit;
+}
+
 .carousel-caption h5 {
     font-family: "Dosis", sans-serif;
     letter-spacing: 1px;
