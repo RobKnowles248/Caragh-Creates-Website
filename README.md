@@ -131,4 +131,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from Caragh Green and her new business Caragh Creates.

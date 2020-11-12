@@ -34,14 +34,14 @@
                 <hr class="general-hr">
             </div>
         </div>
-        <div class="row">
+        <div class="row no-gutters">
             <div class="col-12 text-center">
                 <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in velit sit amet ligula convallis imperdiet. Mauris gravida leo pretium tortor consequat, vitae laoreet elit tincidunt. Integer dignissim porttitor nulla, ac maximus orci accumsan nec. Donec ut auctor sapien. Morbi molestie finibus ligula eu faucibus. Proin ac elit justo. Aliquam erat volutpat.</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row no-gutters">
             <div class="col">
-                <div class="center-form about-form">
+                <div class="center-form">
                     <form>
                         <label for="fullname">Name:</label>
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
@@ -52,7 +52,11 @@
                         <label for="collaborator">Collaborator</label>
                         <input type="radio" id="collaborator" name="user-type" value="collaborator" class="form-control" required>
                         <textarea name="contact-message" id="contact-message" rows="6" class="form-control" required></textarea>
-                        <input type="submit" value="Submit">
+                        <div class="form-row text-center submit-div">
+                            <div class="col">
+                                <button class="btn home-page-btn" type="submit">Submit!</button>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>

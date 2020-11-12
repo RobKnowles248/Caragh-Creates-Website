@@ -301,6 +301,30 @@ footer {
 /*-----------------Contact Page*/
 
 .contact-text {
+    padding: 0;
     text-align: center;
-    margin: 20px 40px 20px 40px;
+    margin: 0 auto;
+
+    max-width: 80%;
+}
+
+.center-form {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 70%;
+    border: 10px solid #880e4f;
+}
+
+@media only screen and (min-width: 768px) {
+    .contact-text {
+        max-width: 70%;
+    }
+
+    .center-form {
+        max-width: 60%;
+    }
+}
+
+.submit-div {
+    padding-top: 10px;
 }
