@@ -23,11 +23,10 @@ The goal for the developer is to have a platform which enables easy running of t
 As a potential customer, I want:
 
 1. Large clear images of products so that I can decide whether I want to buy them.
-2. Clear pricing so I can decide if the products are affordable for me.
-3. Intuitive website layout so I can easily navigate to the sections of the website I want to view.
-4. Clear information on who the business owner is and about the products she makes so I can decide whether I want to buy from her.
-5. Clear directions over how to purchase the products so that I know exactly how to go about buying a product.
-6. Obvious links to social media so I can look at previous products.
+2. Intuitive website layout so I can easily navigate to the sections of the website I want to view.
+3. Clear information on who the business owner is and about the products she makes so I can decide whether I want to buy from her.
+4. Clear directions over how to purchase the products so that I know exactly how to go about buying a product.
+5. Obvious links to social media so I can look at previous products.
 
 As a potential collaborator (materials provider), I want:
 
@@ -59,7 +58,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+- I would like to add features to the gallery page that enable the user to see which bags are in stock and out of stock and what their prices are.
 
 ## Technologies Used
 
@@ -67,9 +66,23 @@ In addition, you may also use this section to discuss plans for additional featu
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 - [Bootstrap4](https://getbootstrap.com/)
 
-## Bugs discovered
+## Testing
 
-### Solved bugs
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+1. Contact form:
+    1. Go to the "Contact" page
+    2. If you submit an empty contact form an error message comes up.
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+### Bugs discovered
 
 1. ### navbar-dark class overriding personal color styles used in my header
 
@@ -81,25 +94,6 @@ In addition, you may also use this section to discuss plans for additional featu
     - I solved this by using chrome developer tools to work out exactly which chain of bootstrap classes were setting the styling and overriding that styling:
 
     ![Bug 1 fixed code](assets/images/bug-1-2.png)
-
-
-## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 

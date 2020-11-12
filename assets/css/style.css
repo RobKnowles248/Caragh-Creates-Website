@@ -56,7 +56,7 @@ header {
     color: #fff;
     font-family: "Bad Script", cursive;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -266,6 +266,7 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
     padding: 10px;
     width: 95%;
     background-color: #880e4f;
