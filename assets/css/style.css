@@ -154,7 +154,7 @@ footer {
 /*-----------------Home Page Text Section*/
 
 .home-page-intro {
-    background-color: rgba(245, 245, 245, 0.7);
+    background-color: rgba(245, 245, 245, 0.8);
     margin: 20px auto;
     text-align: center;
     font-family: "Raleway", sans-serif;
@@ -227,7 +227,7 @@ footer {
 }
 
 .about-text {
-    background-color: rgba(245, 245, 245, 0.7);
+    background-color: rgba(245, 245, 245, 0.8);
     padding: 0 10px 0 10px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -314,7 +314,17 @@ footer {
 
 /*-----------------Contact Page*/
 
+.contact-container {
+    height: 100%;
+    background: url("../images/african-fabrics.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .contact-text {
+    background-color: rgba(245, 245, 245, 0.8);
     padding: 0;
     text-align: center;
     margin: 0 auto;
@@ -322,11 +332,19 @@ footer {
     max-width: 80%;
 }
 
+.contact-text:hover {
+    background-color: rgba(245, 245, 245, 0.9);
+}
+
 .center-form {
+    background-color: rgba(245, 245, 245, 0.8);
     padding: 20px;
     margin: 10px auto;
     max-width: 70%;
-    border: 10px solid #880e4f;
+}
+
+.center-form:hover {
+    background-color: rgba(245, 245, 245, 0.9);
 }
 
 @media only screen and (min-width: 768px) {
