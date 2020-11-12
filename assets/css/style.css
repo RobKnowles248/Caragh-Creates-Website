@@ -206,8 +206,6 @@ footer {
 .home-page-btn:hover {
     background-color: #a5d6a7;
     color: #000;
-    width: 95%;
-    font-size: 110%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -297,7 +295,6 @@ footer {
 }
 
 .gallery-col:hover {
-    width: 98%;
     background-color: #a5d6a7;
     color: #000;
 }
