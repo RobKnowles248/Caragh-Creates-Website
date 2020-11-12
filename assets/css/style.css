@@ -24,6 +24,7 @@ p {
     margin: 0;
     font-family: "Raleway", sans-serif;
     font-weight: 500;
+    font-size: 18px;
 }
 
 .page-heading {
@@ -266,6 +267,15 @@ footer {
 }
 
 /*-----------------Gallery Page*/
+
+.gallery-container {
+    height: 100%;
+    background: url("../images/bloom-fabrics.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .gallery-row {
     padding-bottom: 20px;
