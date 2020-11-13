@@ -193,12 +193,6 @@ footer {
     color: #000;
 }
 
-@media only screen and (max-width: 768px) {
-    .home-page-btn {
-        width: 70%;
-    }
-}
-
 /*-----------------About Page*/
 
 .about-container {
@@ -231,22 +225,6 @@ footer {
 
 .about-info-pic-col {
     padding: 10px;
-}
-
-@media only screen and (max-width: 768px) {
-    .about-info-pic-col {
-        display: none;
-    }
-
-    .about-container {
-        height: 400px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .about-sm-container {
-        display: none;
-    }
 }
 
 /*-----------------Gallery Page*/
@@ -339,7 +317,31 @@ footer {
     background-color: rgba(245, 245, 245, 0.9);
 }
 
-@media only screen and (min-width: 768px) {
+.submit-div {
+    padding-top: 10px;
+}
+
+/*-----------------Media Queries*/
+
+@media only screen and (max-width: 767px) {
+    .home-page-btn {
+        width: 70%;
+    }
+
+    .about-info-pic-col {
+        display: none;
+    }
+
+    .about-container {
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .about-sm-container {
+        display: none;
+    }
+
     .contact-text {
         max-width: 70%;
     }
@@ -347,8 +349,4 @@ footer {
     .center-form {
         max-width: 60%;
     }
-}
-
-.submit-div {
-    padding-top: 10px;
 }
