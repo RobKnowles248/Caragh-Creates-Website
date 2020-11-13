@@ -129,7 +129,7 @@ footer {
 /*-----------------Home Page Hero Image*/
 
 .hero-image {
-    height: 100%;
+    min-height: calc(100vh - 180px);
     background: url("../images/bloom-squares.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -202,7 +202,7 @@ footer {
 /*-----------------About Page*/
 
 .about-container {
-    height: 600px;
+    min-height: calc(100vh - 180px);
     background: url("../images/caragh-pic.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -252,7 +252,7 @@ footer {
 /*-----------------Gallery Page*/
 
 .gallery-container {
-    height: 100%;
+    min-height: calc(100vh - 180px);
     background: url("../images/bloom-fabrics.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -307,7 +307,7 @@ footer {
 /*-----------------Contact Page*/
 
 .contact-container {
-    height: 100%;
+    min-height: calc(100vh - 180px);
     background: url("../images/african-fabrics.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
