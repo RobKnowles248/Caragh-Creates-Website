@@ -84,18 +84,16 @@ In addition, you should mention in this section how your project looks and works
 
 ### Bugs discovered
 
-1. ### navbar-dark class overriding personal color styles used in my header
+1. ### `navbar-dark` class overriding personal color styles used in my header
 
-    - The color style rules I was using for the text colors normally and on hover were being overrided by the styles given in the navbar-dark class.
-    - This was because I was styling them as "a" elements as a child of the "nav-item" class as shown below:
+    - The color style rules I was using for the text colors normally and on hover were being overrided by the styles given in the `navbar-dark` class.
+    - This was because I was styling them as `a` elements as a child of the `nav-item` class as shown below:
 
     ![Bug 1 broken code](assets/images/bug-1-1.png)
 
     - I solved this by using chrome developer tools to work out exactly which chain of bootstrap classes were setting the styling and overriding that styling:
 
     ![Bug 1 fixed code](assets/images/bug-1-2.png)
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
@@ -108,6 +106,9 @@ In particular, you should provide all details of the differences between the dep
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
+This page was deployed on GitHub pages using the master branch.
+
+In order to replicate the process on your own computer.
 
 ## Credits
 
@@ -117,7 +118,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - Template code for the carousels on gallery.html using Bootstrap classes was taken from the [Bootstrap documentation](https://getbootstrap.com/docs/4.0/components/carousel/) and was edited to suit the site needs.
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The main text on `index.html`, `about.html`, `gallery.html` and `contact.html` was written by Caragh Green.
 
 ### Media
 - Some of the photos used in this site () were taken by Caragh Green.
