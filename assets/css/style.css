@@ -106,21 +106,6 @@ footer {
     font-weight: 500;
 }
 
-.contact-details p {
-    font-size: 18px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-.contact-details p,
-.social-heading {
-    letter-spacing: 1px;
-}
-
-.contact-details p i {
-    padding-right: 2px;
-}
-
 .social-links {
     margin: 0 auto;
 }
@@ -130,7 +115,7 @@ footer {
     padding-top: 4px;
     text-decoration: none;
     color: #fff;
-    font-size: 30px;
+    font-size: 40px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -204,7 +189,7 @@ footer {
 }
 
 .home-page-btn:hover {
-    background-color: #a5d6a7;
+    background-color: #ffd54f;
     color: #000;
 }
 
