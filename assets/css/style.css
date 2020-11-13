@@ -89,11 +89,11 @@ header {
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    color: #a5d6a7;
+    color: #ffd54f;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #a5d6a7;
+    color: #ffd54f;
 }
 
 /*-----------------Footer */
@@ -138,7 +138,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    color: #a5d6a7;
+    color: #ffd54f;
 }
 
 /*-----------------Home Page Hero Image*/
@@ -295,7 +295,7 @@ footer {
 }
 
 .gallery-col:hover {
-    background-color: #a5d6a7;
+    background-color: #ffd54f;
     color: #000;
 }
 
