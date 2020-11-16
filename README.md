@@ -58,7 +58,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- I would like to add features to the gallery page that enable the user to see which bags are in stock and out of stock and what their prices are.
+- I would like to add a feature to the gallery page that enable the user to see which bags are in stock and out of stock.
 
 ## Technologies Used
 
@@ -75,10 +75,13 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Contact form:
-    1. Go to the "Contact" page
-    2. If you submit an empty contact form an error message comes up.
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+    1. Went to the "Contact Me" page.
+    2. Tried to submit an empty form and an error came up.
+    ![Empty form error](assets/images/empty-form.png)
+    3. Tried to submit the form with an invalid email address and an error message appeared.
+    ![Invalid email address error](assets/images/invalid-email.png)
+    4. Tried to submit the form with all inputs valid and was brought to the expected form dump page.
+    ![Valid form submit page](assets/images/form-dump.png)
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
