@@ -2,6 +2,8 @@
 
 User Centric Frontend Development Milestone Project - Code Institute.
 
+A link to the live site can be found [here](https://robknowles248.github.io/Caragh-Creates-Website/).
+
 For this project I have created a website for the independent sewing business "Caragh Creates". The website will provide the user with information about the business, details of the products available and a way to get in contact with the business owner.
  
 ## UX
@@ -76,7 +78,7 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
+1. Testing the contact form:
     1. Went to the "Contact Me" page.
     2. Tried to submit an empty form and an error came up.
     ![Empty form error](assets/images/empty-form.png)
@@ -84,6 +86,8 @@ For any scenarios that have not been automated, test the user stories manually a
     ![Invalid email address error](assets/images/invalid-email.png)
     4. Tried to submit the form with all inputs valid and was brought to the expected form dump page.
     ![Valid form submit page](assets/images/form-dump.png)
+
+2. All links open in a new tab using the `target="_blank"` attribute on their `a` tags.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
@@ -102,18 +106,11 @@ In addition, you should mention in this section how your project looks and works
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This page was deployed on GitHub pages using the master branch and will automatically update upon any new commits to the master branch.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+In order to replicate the process on your own computer you can paste `git clone https://github.com/RobKnowles248/Caragh-Creates-Website.git` into the command panel of any code editor and use `git remote rm origin` to cut ties with the original GitHub repository. You can then push this code to GitHub using `git push` making sure that the home page is called `index.html`. To deploy onto GitHub pages you go onto the setting tab of the repository and scroll down to "GitHub Pages". You then choose your source as the master branch and click "save". A link to the deployed website should now appear.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-This page was deployed on GitHub pages using the master branch.
-
-In order to replicate the process on your own computer.
+![GitHub pages deployment](deployment.png)
 
 ## Credits
 
