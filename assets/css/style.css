@@ -28,7 +28,7 @@ p {
 }
 
 .page-heading {
-    padding-top: 20px;
+    margin-top: 20px;
     text-align: center;
     font-family: "Dosis", sans-serif;
     letter-spacing: 2px;
@@ -229,6 +229,21 @@ footer {
 
 /*-----------------Gallery Page*/
 
+.gallery-heading {
+    background-color: rgba(245, 245, 245, 0.8);
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 170px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.gallery-heading:hover {
+    background-color: rgba(245, 245, 245, 0.9);
+}
+
 .gallery-container {
     min-height: calc(100vh - 180px);
     background: url("../images/bloom-fabrics.jpg") no-repeat center center fixed;
@@ -284,6 +299,21 @@ footer {
 
 /*-----------------Contact Page*/
 
+.contact-heading {
+    background-color: rgba(245, 245, 245, 0.8);
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 210px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.contact-heading:hover {
+    background-color: rgba(245, 245, 245, 0.9);
+}
+
 .contact-container {
     min-height: calc(100vh - 180px);
     background: url("../images/african-fabrics.jpeg") no-repeat center center fixed;
@@ -300,6 +330,10 @@ footer {
     margin: 0 auto;
     margin-bottom: 10px;
     max-width: 90%;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .contact-text p {
@@ -315,6 +349,10 @@ footer {
     padding: 20px;
     margin: 10px auto;
     max-width: 90%;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .center-form:hover {
