@@ -89,6 +89,8 @@ For any scenarios that have not been automated, test the user stories manually a
 
 2. All links open in a new tab using the `target="_blank"` attribute on their `a` tags.
 
+3. Tested all html and css code with the [W3C Markup Validation Service](https://validator.w3.org/) and received no errors.
+
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 ### Bugs discovered
