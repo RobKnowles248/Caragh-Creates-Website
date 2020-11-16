@@ -25,16 +25,42 @@ The goal for the developer is to have a platform which enables easy running of t
 As a potential customer, I want:
 
 1. Large clear images of products so that I can decide whether I want to buy them.
+
+![Large, clear images of products](assets/images/large-clear-images.png)
+
 2. Intuitive website layout so I can easily navigate to the sections of the website I want to view.
+
+![Navbar](assets/images/navbar.png)
+
 3. Clear information on who the business owner is and about the products she makes so I can decide whether I want to buy from her.
+
+![About me text]()
+
 4. Clear directions over how to purchase the products so that I know exactly how to go about buying a product.
+
+![Home page text](assets/images/home-page-text.png)
+
+![Contact text](assets/images/contact-text.png)
+
 5. Obvious links to social media so I can look at previous products.
+
+![Instagram link in footer](assets/images/social-media.png)
 
 As a potential collaborator (materials provider), I want:
 
 1. Clear information on the business owner so I can make an informed choice as to whether they would be a good partner.
+
+![About me text]()
+
 2. Information about previous collaborators so I can decide if I would be a suitable fit.
+
+![Collaborator info](assets/images/collaborator-text-2.png)
+
 3. Intuitive contact form so that I can easily get in touch with the business owner.
+
+![Collaborator text on contact page](assets/images/collaborator-text.png)
+
+![Contact form](assets/images/contact-form.png)
 
 ### Design Choices
 
