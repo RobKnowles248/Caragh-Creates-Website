@@ -368,6 +368,10 @@ footer {
 /*-----------------Media Queries*/
 
 @media only screen and (max-width: 767px) {
+    .navbar-brand {
+        font-size: 30px;
+    }
+
     .home-page-btn {
         width: 70%;
     }
