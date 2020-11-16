@@ -142,6 +142,8 @@ footer {
 .home-page-intro {
     background-color: rgba(245, 245, 245, 0.8);
     margin: 20px auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-weight: 500;
@@ -171,7 +173,7 @@ footer {
     font-size: 20px;
     letter-spacing: 1px;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     padding: 10px;
     border-radius: 0;
     background-color: #880e4f;
