@@ -49,16 +49,10 @@ The maroon and yellow primary and secondary colours plus the full page colourful
 - [Contact page](assets/wireframes/contact_page.pdf)
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- I have used Bootstrap carousels on `gallery.html` to allow the user to view multiple different types of bag in the same collection without taking up very much space on the page.
 
 ### Features Left to Implement
 
