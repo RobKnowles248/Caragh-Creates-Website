@@ -4,6 +4,8 @@ User Centric Frontend Development Milestone Project - Code Institute.
 
 A link to the live site can be found [here](https://robknowles248.github.io/Caragh-Creates-Website/).
 
+![Am I responsive screenshot](assets/images/am-i-responsive.png)
+
 For this project I have created a website for the independent sewing business "Caragh Creates". The website will provide the user with information about the business, details of the products available and a way to get in contact with the business owner.
  
 ## UX
@@ -126,13 +128,13 @@ This page was deployed on GitHub pages using the master branch and will automati
 
 In order to replicate the process on your own computer you can paste `git clone https://github.com/RobKnowles248/Caragh-Creates-Website.git` into the command panel of any code editor and use `git remote rm origin` to cut ties with the original GitHub repository. You can then push this code to GitHub using `git push` making sure that the home page is called `index.html`. To deploy onto GitHub pages you go onto the setting tab of the repository and scroll down to "GitHub Pages". You then choose your source as the master branch and click "save". A link to the deployed website should now appear.
 
-![GitHub pages deployment](deployment.png)
+![GitHub pages deployment](assets/images/deployment.png)
 
 ## Credits
 
 ### Code
 
-- Template code for the social links list in the footer was taken from the resume mini project in the User Centric Front End Development module.
+- Template code for the social links list in the footer was adapted from the resume mini project in the User Centric Front End Development module.
 - Template code for the carousels on gallery.html using Bootstrap classes was taken from the [Bootstrap documentation](https://getbootstrap.com/docs/4.0/components/carousel/) and was edited to suit the site needs.
 
 ### Content
