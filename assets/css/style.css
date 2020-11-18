@@ -185,7 +185,11 @@ footer {
     -o-transition: all 0.2s ease-in-out;
 }
 
-.home-page-btn h3 {
+.home-page-btn-text {
+    min-height: 85px;
+}
+
+.home-page-btn-text h3 {
     padding-top: 10px;
     padding-bottom: 5px;
 }
