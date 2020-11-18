@@ -229,6 +229,15 @@ footer {
     padding: 10px;
 }
 
+.about-sm-container {
+    padding: 0;
+    margin: 0;
+}
+
+.about-img {
+    width: 100vw;
+}
+
 /*-----------------Gallery Page*/
 
 .gallery-heading {
@@ -384,13 +393,8 @@ footer {
         font-size: 30px;
     }
 
-    .about-info-pic-col {
-        display: none;
-    }
-
     .about-container {
-        height: 400px;
-        background-position-x: -250px;
+        display: none;
     }
 }
 
