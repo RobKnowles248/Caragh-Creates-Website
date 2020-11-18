@@ -92,12 +92,6 @@ The maroon and yellow primary and secondary colours, plus the full page colourfu
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
 1. Testing the contact form:
     1. Went to the "Contact Me" page.
     2. Tried to submit an empty form and an error came up.
@@ -111,7 +105,7 @@ For any scenarios that have not been automated, test the user stories manually a
 
 3. Tested all html and css code with the [W3C Markup Validation Service](https://validator.w3.org/) and received no errors.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+4. Tested the responsive of the website using Chrome Developer Tools and [Am I Responsive](http://ami.responsivedesign.is/). I used media queries and Bootstrap classes to make the website work on different screen sizes.
 
 ### Bugs discovered
 
