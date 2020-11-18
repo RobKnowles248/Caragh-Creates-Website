@@ -130,7 +130,7 @@ footer {
 
 .hero-image {
     min-height: calc(100vh - 170px);
-    background: url("../images/bloom-squares.jpg") no-repeat center center fixed;
+    background: url("../images/bloom-fabrics.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -318,7 +318,7 @@ footer {
 
 .contact-container {
     min-height: calc(100vh - 170px);
-    background: url("../images/african-fabrics.jpeg") no-repeat center center fixed;
+    background: url("../images/bloom-fabrics.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
