@@ -139,7 +139,7 @@ In order to replicate the process on your own computer you can paste `git clone 
 - The main text on `index.html`, `about.html`, `gallery.html` and `contact.html` was written by Caragh Green.
 
 ### Media
-- Some of the photos used in this site were taken by Caragh Green.
+- The majority of the photos used in this site were taken by Caragh Green.
 - All images were compressed using [tinypng.com](https://tinypng.com/)
 
 ### Acknowledgements
