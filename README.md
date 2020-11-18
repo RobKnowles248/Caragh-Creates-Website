@@ -34,7 +34,7 @@ As a potential customer, I want:
 
 3. Clear information on who the business owner is and about the products she makes so I can decide whether I want to buy from her.
 
-![About me text]()
+![About me text](assets/images/about-text.png)
 
 4. Clear directions over how to purchase the products so that I know exactly how to go about buying a product.
 
@@ -50,7 +50,7 @@ As a potential collaborator (materials provider), I want:
 
 1. Clear information on the business owner so I can make an informed choice as to whether they would be a good partner.
 
-![About me text]()
+![About me text](assets/images/about-text.png)
 
 2. Information about previous collaborators so I can decide if I would be a suitable fit.
 
