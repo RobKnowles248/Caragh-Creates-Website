@@ -58,10 +58,10 @@ header {
     font-family: "Bad Script", cursive;
     font-weight: 700;
     font-size: 40px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
@@ -78,10 +78,10 @@ header {
     font-weight: 500;
     font-size: 25px;
     text-align: center;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 .navbar-dark .navbar-nav .nav-link i {
@@ -116,10 +116,10 @@ footer {
     text-decoration: none;
     color: #fff;
     font-size: 40px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 .social-links li a i:hover {
@@ -129,7 +129,7 @@ footer {
 /*-----------------Home Page Hero Image*/
 
 .hero-image {
-    min-height: calc(100vh - 180px);
+    min-height: calc(100vh - 170px);
     background: url("../images/bloom-squares.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -147,10 +147,10 @@ footer {
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-weight: 500;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 .home-page-intro p {
@@ -179,10 +179,10 @@ footer {
     background-color: #880e4f;
     color: #fff;
     width: 90%;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 .home-page-btn h3 {
@@ -198,7 +198,7 @@ footer {
 /*-----------------About Page*/
 
 .about-container {
-    min-height: calc(100vh - 180px);
+    min-height: calc(100vh - 170px);
     background: url("../images/caragh-pic.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -209,10 +209,10 @@ footer {
 .about-text {
     background-color: rgba(245, 245, 245, 0.8);
     padding: 0 10px 0 10px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 .about-text p {
@@ -236,10 +236,10 @@ footer {
     margin: 0 auto;
     margin-top: 20px;
     width: 170px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 .gallery-heading:hover {
@@ -247,7 +247,7 @@ footer {
 }
 
 .gallery-container {
-    min-height: calc(100vh - 180px);
+    min-height: calc(100vh - 170px);
     background: url("../images/bloom-fabrics.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -266,17 +266,17 @@ footer {
     margin-top: 10px;
     padding: 10px;
     width: 95%;
+    min-height: 700px;
     background-color: #880e4f;
     color: #fff;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 .gallery-col:hover {
-    background-color: #ffd54f;
-    color: #000;
+    background-color: #560027;
 }
 
 .collection-heading {
@@ -306,10 +306,10 @@ footer {
     margin: 0 auto;
     margin-top: 20px;
     width: 210px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 .contact-heading:hover {
@@ -317,7 +317,7 @@ footer {
 }
 
 .contact-container {
-    min-height: calc(100vh - 180px);
+    min-height: calc(100vh - 170px);
     background: url("../images/african-fabrics.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -331,11 +331,11 @@ footer {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 10px;
-    max-width: 90%;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    max-width: 95%;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 .contact-text p {
@@ -350,11 +350,11 @@ footer {
     background-color: rgba(245, 245, 245, 0.8);
     padding: 20px;
     margin: 10px auto;
-    max-width: 90%;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    max-width: 95%;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 .center-form:hover {
@@ -367,13 +367,21 @@ footer {
 
 /*-----------------Media Queries*/
 
+@media only screen and (max-width: 1100px) {
+    .about-container {
+        background-position-x: -450px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .about-container {
+        background-position-x: -400px;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .navbar-brand {
         font-size: 30px;
-    }
-
-    .home-page-btn {
-        width: 70%;
     }
 
     .about-info-pic-col {
@@ -382,7 +390,7 @@ footer {
 
     .about-container {
         height: 400px;
-        background-position-x: -200px;
+        background-position-x: -250px;
     }
 }
 
@@ -392,10 +400,28 @@ footer {
     }
 
     .contact-text {
-        max-width: 60%;
+        max-width: 70%;
     }
 
     .center-form {
-        max-width: 60%;
+        max-width: 70%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .gallery-col {
+        min-height: 780px;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .gallery-col {
+        min-height: 900px;
+    }
+}
+
+@media only screen and (min-width: 2200px) {
+    .gallery-col {
+        min-height: 1000px;
     }
 }
