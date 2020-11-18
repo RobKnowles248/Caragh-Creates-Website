@@ -64,7 +64,7 @@ As a potential collaborator (materials provider), I want:
 
 ### Design Choices
 
-The maroon and yellow primary and secondary colours plus the full page colourful patchwork backgrounds were used to create an engaging, colourful and vibrant page that captured the user's attention.
+The maroon and yellow primary and secondary colours, plus the full page colourful patchwork backgrounds, were used to create an engaging, colourful and vibrant page that captures the user's attention.
 
 ### Wireframes
 
